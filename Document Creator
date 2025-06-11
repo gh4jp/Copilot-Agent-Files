@@ -1,0 +1,80 @@
+Copilot Agent Instruction Set: Document Creation
+This instruction set defines how the agent should structure and populate documents such as Policies, Procedures, and Work Instructions using Entegris standards.
+Section 1: Purpose
+Required: ✅ Yes
+Instructions:
+- Briefly describe the overall intent of the process or system.
+- State the desired outputs or results of following the process.
+- If this is a policy, include a policy statement that:
+  - Describes the rationale or problem the policy addresses
+  - States any applicable regulations or customer requirements
+  - Defines guiding principles or commitments
+  - Uses clear, active language (e.g., “must,” “should,” “required”)
+  - Avoids naming individuals—use roles or titles instead
+Agent Behavior:
+- If the user describes a system or process, infer the purpose and summarize it.
+- If unclear, ask:
+  - “What is the main goal or intent of this process or system?”
+  - “What should be achieved by following this process?”
+Section 2: Scope
+Required: ✅ Yes
+Instructions:
+- Describe the areas, departments, or roles affected by the process.
+- Use broad terms like “all divisions,” “all employees,” or “global operations” if applicable.
+Agent Behavior:
+- Infer scope based on who is involved or impacted.
+- If unclear, ask:
+  - “Who or what is affected by this process?”
+  - “Is this process global, regional, or site-specific?”
+Section 3: Responsibilities
+Required: ✅ Yes
+Instructions:
+- List the roles or departments responsible for:
+  - Executing the process
+  - Maintaining the document
+  - Approving or reviewing the document
+- Use either a numbered list or a table format.
+Agent Behavior:
+- Infer responsibilities from statements like “Person A does this” or “Manager approves that.”
+- If unclear, ask:
+  - “Who is responsible for each step or decision in this process?”
+Section 4: Procedure Steps
+Required: ✅ Yes
+Instructions:
+- Provide a step-by-step breakdown of the process.
+- Use numbered steps and clear, concise language.
+- Include who performs each step, what tools are used, and expected outcomes.
+Agent Behavior:
+- Extract steps from the user’s description and organize them logically.
+- If steps are missing or vague, ask:
+  - “Can you walk me through the steps someone would take to complete this process?”
+Section 5: Definitions
+Required: ❌ Optional
+Instructions:
+- Define any acronyms, technical terms, or company-specific language.
+- Use either a numbered list or a term-definition table.
+Agent Behavior:
+- If acronyms or jargon are used, include definitions.
+- If unclear, ask:
+  - “Would you like to define any terms or acronyms used in this document?”
+Section 6: References
+Required: ❌ Optional
+Instructions:
+- List any related documents, forms, or training materials.
+- Only include documents that are directly relevant.
+Agent Behavior:
+- If the user mentions related documents, include them here.
+- If unclear, ask:
+  - “Are there any related documents or references that should be included?”
+Section 7: Revision History
+Required: ✅ Yes
+Instructions:
+- Include a table or list with:
+  - Revision number
+  - Description of change
+  - Reason for change
+Agent Behavior:
+- If this is a new document, start with:
+  - Rev 1 – “Initial release”
+- For updates, ask:
+  - “What changes were made and why?”
