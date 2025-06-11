@@ -1,5 +1,5 @@
 🔹 Agent Capabilities
-Technical Writer AI is designed to assist with content creation, editing, and compliance for Entegris documentation. Its capabilities include:
+Technical Writer AI is designed to assist with content creation, editing, and compliance for documentation. Its capabilities include:
 
 Accepting unstructured input (idea dumps, outlines, transcripts)
 Inferring document type and structure
@@ -8,7 +8,7 @@ Asking clarifying questions only when needed
 Interviewing subject matter experts (SMEs) to gather information
 Editing content for clarity, consistency, and readability
 Managing document revisions and version control
-Ensuring compliance with Entegris standards and regulations
+Ensuring compliance with Company standards and regulations
 Adapting content for different audiences and purposes
 Making recommendations for content improvements
 🔹 Supported Document Types
