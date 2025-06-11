@@ -1,80 +1,87 @@
-Copilot Agent Instruction Set: Document Creation
-This instruction set defines how the agent should structure and populate documents such as Policies, Procedures, and Work Instructions using Entegris standards.
-Section 1: Purpose
-Required: ✅ Yes
-Instructions:
-- Briefly describe the overall intent of the process or system.
-- State the desired outputs or results of following the process.
-- If this is a policy, include a policy statement that:
-  - Describes the rationale or problem the policy addresses
-  - States any applicable regulations or customer requirements
-  - Defines guiding principles or commitments
-  - Uses clear, active language (e.g., “must,” “should,” “required”)
-  - Avoids naming individuals—use roles or titles instead
-Agent Behavior:
-- If the user describes a system or process, infer the purpose and summarize it.
-- If unclear, ask:
-  - “What is the main goal or intent of this process or system?”
-  - “What should be achieved by following this process?”
-Section 2: Scope
-Required: ✅ Yes
-Instructions:
-- Describe the areas, departments, or roles affected by the process.
-- Use broad terms like “all divisions,” “all employees,” or “global operations” if applicable.
-Agent Behavior:
-- Infer scope based on who is involved or impacted.
-- If unclear, ask:
-  - “Who or what is affected by this process?”
-  - “Is this process global, regional, or site-specific?”
-Section 3: Responsibilities
-Required: ✅ Yes
-Instructions:
-- List the roles or departments responsible for:
-  - Executing the process
-  - Maintaining the document
-  - Approving or reviewing the document
-- Use either a numbered list or a table format.
-Agent Behavior:
-- Infer responsibilities from statements like “Person A does this” or “Manager approves that.”
-- If unclear, ask:
-  - “Who is responsible for each step or decision in this process?”
-Section 4: Procedure Steps
-Required: ✅ Yes
-Instructions:
-- Provide a step-by-step breakdown of the process.
-- Use numbered steps and clear, concise language.
-- Include who performs each step, what tools are used, and expected outcomes.
-Agent Behavior:
-- Extract steps from the user’s description and organize them logically.
-- If steps are missing or vague, ask:
-  - “Can you walk me through the steps someone would take to complete this process?”
-Section 5: Definitions
-Required: ❌ Optional
-Instructions:
-- Define any acronyms, technical terms, or company-specific language.
-- Use either a numbered list or a term-definition table.
-Agent Behavior:
-- If acronyms or jargon are used, include definitions.
-- If unclear, ask:
-  - “Would you like to define any terms or acronyms used in this document?”
-Section 6: References
-Required: ❌ Optional
-Instructions:
-- List any related documents, forms, or training materials.
-- Only include documents that are directly relevant.
-Agent Behavior:
-- If the user mentions related documents, include them here.
-- If unclear, ask:
-  - “Are there any related documents or references that should be included?”
-Section 7: Revision History
-Required: ✅ Yes
-Instructions:
-- Include a table or list with:
-  - Revision number
-  - Description of change
-  - Reason for change
-Agent Behavior:
-- If this is a new document, start with:
-  - Rev 1 – “Initial release”
-- For updates, ask:
-  - “What changes were made and why?”
+[All content in grey text are guides for building your document and should be removed. Content that is kept to be used must be updated to black text]
+Table of Contents (TOC) may be used to ease navigation throughout the document. During revision of the document the author is responsible for ensuring that the TOC is updated and free of errors. 
+
+1.	PURPOSE
+1.1	This section is required.
+1.2	This purpose should briefly describe the overall intent of the process to be followed and the desired outputs as result of following the process.
+1.3	Policy Statements Provisions
+1.3.1	A policy statement is an organization-level document that prescribes acceptable methods or behaviors. Essentially, a policy is simply the way things are done within an organization. Policies are different from procedures and standard operating procedures, because policies are applicable to an entire organization and are primarily intended to set direction. Procedures and standard operating procedures, on the other hand, typically include very specific instructions used to accomplish defined tasks.
+1.3.2	Well-written and designed policy statements are general enough that frequent revision is unnecessary. For instance, instead of referring to a specific individual in a policy statement, position titles could be used. Good policies are written in active voice and are easily understood. Short sentences, avoiding the use of jargon or acronyms, and using clear terms like 'must,' 'required,' 'recommended,' and 'should' make policy readable and easier to use.
+1.3.3	States the general and specific content and provisions of the policy.  Authors are encouraged to state procedures separately unless they are tied to the policy itself or if stating them separately would significantly diminish clarity or ease in understanding.
+1.3.4	A Policy Statement may be: 
+(Select and follow those that most closely apply to your needs)
+•	The rationale behind implementing a procedure which is followed globally, by divisions, business units and personnel within those areas. Describes the circumstances to which the policy responds, or the problem or conflict it resolves. States any customer requirements, if applicable, federal, state, or local statutes or regulations related to the policy.
+•	A statement of commitment to a broad requirement
+•	A principle which guides the administration, operation, and decision making of The Company. It may list who is responsible for certain aspects of the policy.
+•	A statement on how to achieve the company’s goals and objectives with regard to a specific subject.
+•	A high-level overall plan embracing the general goals and acceptable procedures of the company.
+•	Basic principles by which the companies community is guided
+•	A declared objective which the The Company Business unit seeks to achieve and preserve in the interest of the company. The objective may have a companywide affect.
+•	A set of basic principles and associated guidelines, formulated and enforced by management to direct and limit its actions in pursuit of company-wide long-term goals. A plan or course of action intended to influence and determine decisions, actions, and other matters affecting the operations of the company.
+Note on Procedures
+Procedures (not the policy statement) should, in concrete terms, describe how the policy will be implemented or enforced, and details not included as part of the policy statement. Relevant procedures must be listed in the separate “Reference Documents” section, authors are expected to make them accessible via the EDMS. Only the most direct related procedure should be referenced in any document and any subsequent document references should be added to the next tier
+2.	SCOPE 
+2.1	This section is required.
+2.2	The scope of this template is for all documents that are global in scope.
+2.3	Scope of this document should broadly describe areas and locations affected by this process.
+2.4	Identifies who and/or what is affected, such as “all divisions, departments and business units of The Company,” or “all regular employees”.
+3.	RESPONSIBILITIES
+3.1	This section is required.
+3.2	Provide the Title of one or more offices, department, or group and position responsible for stewardship of the policy and/or maintaining its procedures.
+3.3	The responsibilities may be presented in numbered format or in the table.  Please choose one style and remove the other.
+EXAMPLE (3.4 – 3.9):
+3.4	[Functional area] is responsible to ensure this work instruction is operational and effective at all locations.
+3.5	Training and implementation of the process is the responsibility of the … (e.g., Department Manager, Supervisor, etc.)
+3.6	Define further responsibilities as appropriate.
+3.7	EQOS Work Instructions are to be approved by the following:
+3.8	[Functional area] Manager
+3.9	[Functional area] Business or Process Owner
+Title/Functional Area	Definition of Responsibility
+	
+	
+	
+	
+4.	REFERENCES
+4.1	This section is optional.
+4.2	Reference documents must be used in the context of the document.
+
+Reference Documents:
+Special Notes:
+
+5.	DEFINITIONS
+5.1	This section is optional.
+5.2	Any The Company specific terms and abbreviations used in the document need to be defined in this section the format should note the term and the definition.
+5.3	The Definitions may be presented in numbered format or in the table.  Please choose one style and remove the other.
+EXAMPLE are shown in 5.2 – 5.5.
+5.4	EDMS: Electronic Documentation Management System
+5.5	WIP: Work In-process
+5.6	EQOS: The Company Quality Operating System documents define Policy, Procedures and processes which are applicable to the Local Plant location.
+5.7	Referenced Documents:  Documents that describes system at a higher level or forms, work instruction, or training materials that pertain to current document.
+5.8	Authors may elect to use a table for the definitions or use the 5.2 – 5.6 format.
+Term	Definition
+EDMS	Electronic Documentation Management System
+WIP	Work In-process
+EQOS	The Company Quality Operating System documents define Policy, Procedures and processes which are applicable to the Local Plant location.
+Referenced Documents	Documents that describes system at a higher level or forms, work instruction, or training materials that pertain to current document.
+6.	      
+6.1	This section is required.  
+6.2	The section heading will change automatically by EtQ to match the document type.  Do not alter this section header.  (Notice:  when section header is selected, the background turns dark, indicating that the text is tied to custom properties of the document.)
+6.3	Use of EQOS Template
+6.3.1	Any new documents must utilize this format.
+6.3.2	Any revisions of documents that are not in the current template will updated to utilize this format.
+6.4	This section may be presented in numbered format or in the table.  Please choose one style and remove the other.
+Step	Responsible	Task
+6.5			
+6.6			
+6.7			
+6.8			
+6.9			
+
+7.	ATTACHMENTS
+7.1	This section is optional.
+7.2	Add any work flow diagrams, process flow diagrams, or picture references as needed.
+8.	REVISION HISTORY
+New Rev	Description of Change	Reason for Change
+Use EtQ assigned Rev	List what has changed	List why changes were made
+		
+
